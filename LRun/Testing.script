@@ -1,0 +1,7 @@
+﻿+Point /Real x, y;
+Point addop + (Point) {
+	/Real xd = &[0][0] + &[1][0];
+	/Real yd = &[0][1] + &[1][1];
+	/Point sum = (xd, yd);
+	return sum;
+}
